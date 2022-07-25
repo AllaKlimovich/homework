@@ -1,6 +1,5 @@
 @import('https://fonts.googleapis.com/css2? family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -99,6 +98,7 @@ body{
     border: none;
     width: 160px;
     height: 48px;
+    cursor: pointer;
 }
 
 .nav-menu:hover .button_menu{
@@ -108,7 +108,7 @@ body{
 @keyframes jump{
     0%{
         background: red;
-        border-radius: 15%;
+        border-radius: 5%;
     }
     50%{
         background: yellow;
@@ -186,7 +186,6 @@ body{
     width: 456px;
 }
 
-
 .rectangle_section1{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -203,6 +202,7 @@ body{
 
     display: grid;
     align-items: center;
+    cursor: pointer;
 }
 
 .button1_section1 button{
@@ -212,7 +212,7 @@ body{
     font-size: 18px;
     line-height: 13px;
     color: #FFFFFF;
-
+    cursor: pointer;
 }
 
 .button2_section2 {
@@ -222,6 +222,7 @@ body{
 
     display: grid;
     align-items: center;
+    cursor: pointer;
 }
 
 .button2_section2 button{
@@ -231,6 +232,7 @@ body{
     font-size: 18px;
     line-height: 13px;
     color: #3040C4;
+    cursor: pointer;
 }
 
 .img_section1{
@@ -340,9 +342,17 @@ width: 555px;
     line-height: 26px;
     text-decoration-line: underline;
     color: #3040C4;
+    cursor: pointer;
 }
 
 .column1{
     display: grid;
     padding-bottom: 40px;
+}
+
+/*section3*/
+
+.main_features{
+    height: 805px;
+    background: #F4F5F7;
 }
