@@ -8,14 +8,12 @@
 body{
     font-family: 'Work Sans';
     font-style: normal;
-    width: 100%;
 }
 
 .container{
-    /*width: 80%;
-    max-width: 1280px;*/
-    width: 1280px;
-    margin: auto;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /*header*/
@@ -281,14 +279,14 @@ body{
 }
 
 .section2 .h1_section2 h1{
-font-weight: 700;
-font-size: 56px;
-line-height: 56px;
-letter-spacing: -0.5px;
-color: #2B292D;
-text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    text-align: center;
 
-width: 555px;
+    width: 555px;
 }
 
 .section2 .p_section2{
@@ -354,12 +352,12 @@ width: 555px;
 
 /*section3*/
 
-.container_section3{
-    /*width: 80%;
-    max-width: 1920px;*/
+/*.container_section3{
+    width: 80%;
+    max-width: 1920px;
     width: 1920px;
     margin: auto;
-}
+}*/
 
 .main_features{
     height: 805px;
